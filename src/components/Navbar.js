@@ -51,7 +51,7 @@ export default function ReactNavbar() {
               Portfolio
             </Nav.Link>
             <Nav.Link
-              href="#"
+              href="#contact-us"
               target="_blank"
               className={`${active === 4 ? "active" : ""} mx-2`}
               onClick={() => setActive(4)}
